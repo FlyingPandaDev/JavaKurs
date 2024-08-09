@@ -8,6 +8,12 @@ class Main {
 
     int gesamt = laengeDesFeldes + zahl;
 
+    int gesamtAlt = hinzufuegen(laengeDesFeldes, zahl);
+
     System.out.println("Die Länge des Feldes und die Zahl selbst ergeben summiert: " + gesamt);
+  }
+
+  public static int hinzufuegen(int a, int b) {
+    return a + b;
   }
 }
