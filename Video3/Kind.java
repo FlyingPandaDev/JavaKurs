@@ -2,11 +2,11 @@ public class Kind {
   int alter = 6;
   String name = "EinKind";
 
-  public static void weinen() {
+  public void weinen() {
     System.out.println("WuahhhhWuahhhh..");
   }
 
-  public static void begruessen() {
+  public void begruessen() {
     System.out.println("Hallo!");
   }
 }
