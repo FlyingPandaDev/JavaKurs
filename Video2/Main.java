@@ -13,6 +13,7 @@ class Main {
     System.out.println("Die Länge des Feldes und die Zahl selbst ergeben summiert: " + gesamt);
   }
 
+  // Beide Methoden koennen des Oefteren verwendet werden.
   public static int addieren(int a, int b) {
     return a + b;
   }
@@ -20,6 +21,9 @@ class Main {
   public static double durchschnitt(int a, int b, int anzahlAnWerten) {
     int summe = a + b;
     // oder auch: int summe = addieren(a, b)
+    if (summe == 0) {
+      return 0;
+    }
     return summe / anzahlAnWerten;
   }
 }
