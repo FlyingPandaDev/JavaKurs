@@ -1,0 +1,26 @@
+1. Java ausführen.
+
+Man kann, wenn man lediglich eine Datei zum Speichern von Source Code benutzt, mit java (Dateiname) die Datei einfach ausführen. Jedoch, wenn man mehr als eine Datei nutzt / benötigt, empfiehlt es sich, die Kompilierung zuvor durchzuführen. 
+
+Beispiel:
+1a) java Main.java zusaetzlicheDatei.java -> Fehler, wenn Main.java auf zusaetzlicheDatei.java zugreifen soll;
+1b) javac Main.java zusaetzlicheDatei.java -> Geht.
+! Danach muss immer noch java Main.java oder auch java Main in der Befehlszeile aufgerufen werden. !
+Hierbei muss man nicht mehr die zusaetzlicheDatei.java auflisten, da der Compiler die Datei durch den Befehl 1b) schon "abgehandelt" hat.
+
+
+2. Java installieren:
+Sofern dies noch nicht geschehen ist:
+
+2a) MacOS:
+brew install java
+(Falls brew / homebrew noch nicht installiert wurde: https://brew.sh -> Essentiell für die Programmierung!!!)
+
+2b) Linux:
+Hierbei gibt es mehrere Paketmanager der Wahl; Beispielsweise:
+sudo pacman java -Syu (macht gleichzeitig bei vorhandenen Paketen ein Update)
+sudo apt-get install java
+(Portage, RPM, Slackware, Flatpak, Snap, etc...)
+
+2c) Windows:
+https://www.java.com/de/download/help/windows_manual_download.html
