@@ -8,12 +8,18 @@ class Main {
 
     int gesamt = laengeDesFeldes + zahl;
 
-    int gesamtAlt = hinzufuegen(laengeDesFeldes, zahl);
+    int gesamtAlt = addieren(laengeDesFeldes, zahl);
 
     System.out.println("Die Länge des Feldes und die Zahl selbst ergeben summiert: " + gesamt);
   }
 
-  public static int hinzufuegen(int a, int b) {
+  public static int addieren(int a, int b) {
     return a + b;
+  }
+
+  public static double durchschnitt(int a, int b, int anzahlAnWerten) {
+    int summe = a + b;
+    // oder auch: int summe = addieren(a, b)
+    return summe / anzahlAnWerten;
   }
 }
