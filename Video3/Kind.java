@@ -1,6 +1,9 @@
 public class Kind {
-  int alter = 6;
-  String name = "EinKind";
+
+  public Kind() {
+    int alter = 6;
+    String name = "EinKind";
+  }
 
   public void weinen() {
     System.out.println("WuahhhhWuahhhh..");
