@@ -1,0 +1,17 @@
+Um die Dateien erfolgreich nutzen zu können empfehle cih folgende Schritte:
+
+1. Kompilieren.
+Befehl hierzu: 
+javac Main.java Kind.java
+
+2. Ausführen.
+Befehl hierzu:
+java Main.javUm die Dateien erfolgreich nutzen zu können empfehle cih folgende Schritte:
+
+1. Kompilieren.
+Befehl hierzu: 
+javac Main.java Kind.java
+
+2. Ausführen.
+Befehl hierzu:
+java Main.java
